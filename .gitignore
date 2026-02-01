@@ -1,0 +1,13 @@
+__pycache__/
+.env
+.venv
+env/
+data/*.csv
+!data/.gitkeep
+models/*.pth
+models/*.json
+!models/.gitkeep
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.DS_Store
+!data/electricity_prices_sample.csv
