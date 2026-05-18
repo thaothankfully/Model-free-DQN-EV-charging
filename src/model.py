@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-
+ 
 # Deep Q Network Model - extraction network followed by a Q-network
 
 class QNetwork(nn.Module):
