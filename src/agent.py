@@ -6,7 +6,7 @@ import json
 
 from src.model import QNetwork
 from src.memory import Transition, ReplayMemory 
-
+ 
 class DQNAgent:
     def __init__(self,
                  action_size,
