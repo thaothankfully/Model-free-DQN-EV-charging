@@ -1,6 +1,6 @@
 import numpy as np
 
-from src import config
+from src import config 
 
 def run_episode(agent, env, date=None):
     
